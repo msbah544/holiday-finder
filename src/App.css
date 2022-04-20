@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  /*box-shadow: 0px -4px 12px grey;*/
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.form-component {
+  padding-top: 10px;
+}
+.inputs {
+  width: 100px;
+  height: 40px;
+}
+
+input {
+  border-width: 1px solid;
+  border-style: none none solid;
+  border-color: lightgreen;
+  outline: none;
+  font-size: 20px;
+  color: grey;
+}
+
+button {
+  width: 25%;
+  background-color: lightgreen;
+  color: white;
+  font-size: 18px;
+  border-style: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: grey;
+  box-shadow: 0px 0px 4px lightgreen;
+}
+
+label {
+  padding-right: 10px;
+  font-size: larger;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.table-section {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 70%;
+  border: 1px solid;
+  margin-top: 50px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tr {
+  border-width: 5px solid;
+}
+
+th {
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid;
+}
