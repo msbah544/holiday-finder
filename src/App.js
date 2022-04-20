@@ -13,10 +13,10 @@ function App() {
     if (formInfo.countryCode && formInfo.year) {
       setIsPending(true);
       fetch(
-        "http://localhost:8000/data" /*+
+        "https://date.nager.at/api/v3/PublicHolidays/" +
           formInfo.year +
           "/" +
-          formInfo.countryCode*/
+          formInfo.countryCode
       )
         .then((response) => {
           if (response.ok != true) {
